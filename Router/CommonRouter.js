@@ -1,5 +1,7 @@
 const express = require('express')
 const router = express.Router()
-const {}= require('../Controller/CommonController')
+const {signup}= require('../Controller/CommonController')
+
+router.post('/signup',signup)
 
 module.exports = router
